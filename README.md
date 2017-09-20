@@ -17,16 +17,20 @@ To Run the project.
 7. Your trailer would be displayed. Enjoy!!
 
 
-Library - fresh_tomatoes
-	This library was taken from the starter kit for this project
-	This library expects the Movie list to be passed on to the method open_movies_page()
-	The Movie list Should be a list of Object that has the following parameters
-		1.	title 				- Name of the Movie
-		2. poster_image_url 	- Link to Movie Poster
-		3. trailer_youtube_url 	- Link to the youtube trailer
-		
+Library 
+	- fresh_tomatoes
 
-Modules - Media.py
+		This library was taken from the starter kit for this project
+		This library expects the Movie list to be passed on to the method open_movies_page()
+		The Movie list Should be a list of Object that has the following parameters
+			1.	title 				- Name of the Movie
+			2. poster_image_url 	- Link to Movie Poster
+			3. trailer_youtube_url 	- Link to the youtube trailer
+			
+
+Modules 
+	- 	Media.py
+		
 		This module has the class Movie.
 		The constructor of this class expects - title, storyline, poster_image, 
 							and trailer link in the corresonding order
@@ -34,11 +38,13 @@ Modules - Media.py
 	
 	
 	-	movies.py
+		
 		This is a utility module
 		This has a function get_movie_list()
 		This list would give you the list of 7 movies added for this demo
 		
 	- entertainment_center.py 
+		
 		This is the main module
 		This creates the movie list and pass it on to the 
 			fresh_tomatoes open_movies_page() method which,
